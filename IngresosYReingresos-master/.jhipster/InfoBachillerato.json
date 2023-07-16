@@ -1,0 +1,47 @@
+{
+  "applications": "*",
+  "changelogDate": "20230421173840",
+  "clientRootFolder": "Modulo3IyR",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "info_bachillerato",
+  "fields": [
+    {
+      "fieldName": "ciudad",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "departamento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pais",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "colegio",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "year",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "modalidad",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "puntajeIcfes",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Modulo3IyR",
+  "name": "InfoBachillerato",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="250.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControladorElegirModo">
+   <children>
+
+      <Button fx:id="btnJM2" disable="true" layoutX="185.0" layoutY="217.0" mnemonicParsing="false" onAction="#btnJM2Action" text="Jugar Multijugador" />
+      <TextField fx:id="J2" disable="true" layoutX="186.0" layoutY="184.0" onAction="#btnJM2Action" onInputMethodTextChanged="#checkLetters" onKeyPressed="#checkLetters" onKeyReleased="#checkLetters" onKeyTyped="#checkLetters" prefHeight="25.0" prefWidth="115.0" promptText="Ingrese Jugador 2" text="JugadorDos" />
+      <Label layoutX="61.0" layoutY="14.0" text="¿Con que Tema quisieras empezar?" />
+       <Button fx:id="F1" disable="true" layoutX="185.0" layoutY="88.0" mnemonicParsing="false" onAction="#btnF1" prefHeight="25.0" prefWidth="94.0" text="Jugar Solo!" />
+      <VBox layoutX="23.0" layoutY="51.0" onMouseClicked="#btn1" prefHeight="92.0" prefWidth="100.0">
+         <children>
+            <RadioButton fx:id="RB1" mnemonicParsing="false" onAction="#btn1" text="Geografía" />
+            <RadioButton fx:id="RB2" mnemonicParsing="false" onAction="#btn2" text="Matematicas" />
+            <RadioButton fx:id="RB3" layoutX="10.0" layoutY="27.0" mnemonicParsing="false" onAction="#btn3" text="Ciencia" />
+            <RadioButton fx:id="RB4" layoutX="10.0" layoutY="45.0" mnemonicParsing="false" onAction="#btn4" text="Historia" />
+            <RadioButton fx:id="RB5" layoutX="10.0" layoutY="62.0" mnemonicParsing="false" onAction="#btn5" text="Latín" />
+            <RadioButton fx:id="RB6" layoutX="10.0" layoutY="79.0" mnemonicParsing="false" onAction="#btn6" text="Filosofía" />
+         </children>
+      </VBox>
+      <Button layoutX="18.0" layoutY="170.0" mnemonicParsing="false" onAction="#btnAleatorio" text="Elegir Topico Aleatorio" />
+      <RadioButton layoutX="177.0" layoutY="161.0" mnemonicParsing="false" onAction="#btnJM" text="¿Jugar Multijugador?" />
+      <Button layoutX="18.0" layoutY="205.0" mnemonicParsing="false" onAction="#btnPuntajes" prefHeight="32.0" prefWidth="137.0" text="Ver puntajes" />
+      
+   </children>
+
+</AnchorPane>

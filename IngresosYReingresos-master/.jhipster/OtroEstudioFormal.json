@@ -1,0 +1,50 @@
+{
+  "applications": "*",
+  "changelogDate": "20230421173841",
+  "clientRootFolder": "Modulo3IyR",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "otro_estudio_formal",
+  "fields": [
+    {
+      "fieldName": "institucion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "estudio",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "graduado",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "year",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "tituloObtenido",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nivel",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Modulo3IyR",
+  "name": "OtroEstudioFormal",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "infoAcademica",
+      "otherEntityRelationshipName": "otroEstudioFormal",
+      "relationshipName": "otroFormal",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

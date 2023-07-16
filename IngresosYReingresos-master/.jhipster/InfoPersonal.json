@@ -1,0 +1,63 @@
+{
+  "applications": "*",
+  "changelogDate": "20230421173837",
+  "clientRootFolder": "Modulo3IyR",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "info_personal",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tipoID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apellidos",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "genero",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fechaNacimiento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "edadIngreso",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "telefono",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "celular",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "correoPersonal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nacionalidad",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Modulo3IyR",
+  "name": "InfoPersonal",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

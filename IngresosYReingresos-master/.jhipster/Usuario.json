@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20230421173835",
+  "clientRootFolder": "Modulo3IyR",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "usuario",
+  "fields": [
+    {
+      "fieldName": "usuario",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "password",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "correoInstitucional",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rol",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Modulo3IyR",
+  "name": "Usuario",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

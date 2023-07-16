@@ -1,0 +1,94 @@
+
+entity Usuario {
+	usuario String,
+    password String,
+    correoInstitucional String,
+    rol String,
+}
+
+entity Estudiante {
+    diligenciado Boolean
+}
+
+entity InfoPersonal {
+	id String,
+	tipoID String,
+	nombre String,
+	apellidos String,
+    genero String, 
+    fechaNacimiento String,
+    edadIngreso Integer,
+    telefono Integer,
+    celular Integer,
+    correoPersonal String,
+    nacionalidad String
+}
+
+entity InfoEconomica {
+	direccion String,    
+	barrio String,
+    ciudad String,
+    departmento String,
+    estrato Integer,
+    dependeEcono Boolean,
+    trabaja Boolean,
+    tieneDependientes Boolean
+}
+
+entity InfoAcademica {
+}
+
+entity InfoBachillerato {	
+	ciudad String,
+	departamento String,
+	pais String,
+	colegio String,
+	year Integer,
+	modalidad String,
+	puntajeIcfes Integer
+}
+
+entity OtroEstudioFormal {
+	institucion String,
+	estudio Long,
+	graduado Boolean,
+    year Integer,
+    tituloObtenido String,
+    nivel String
+}
+
+entity MatriculaSemestre {
+	tipoIngreso String,
+	tipoAspirante String,
+    version String,
+    modalidad String,
+    sede String,
+    year Integer,
+    cohorte String,
+    estado String,
+    promedioSemestre Double,
+    promedioAcumulado Double,
+    liquidacionMatricula String,
+    estadoPago String,
+    situacionAcademica String
+}
+
+entity Programa {
+	codigo String,
+    nombre String,
+    restriccion String,
+    descripcion String
+}
+
+relationship OneToOne {
+    Estudiante{estudianteP required} to InfoPersonal,
+    Estudiante{estudianteE required} to InfoEconomica,
+    Estudiante{estudianteA required} to InfoAcademica,
+    InfoAcademica{academica required} to InfoBachillerato,
+    MatriculaSemestre{matriculaS required} to Programa
+}
+
+relationship OneToMany {
+	InfoAcademica to MatriculaSemestre{matriculaA required},
+	InfoAcademica to OtroEstudioFormal{otroFormal}
+}

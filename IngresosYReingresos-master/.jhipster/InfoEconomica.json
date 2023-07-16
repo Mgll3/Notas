@@ -1,0 +1,51 @@
+{
+  "applications": "*",
+  "changelogDate": "20230421173838",
+  "clientRootFolder": "Modulo3IyR",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "info_economica",
+  "fields": [
+    {
+      "fieldName": "direccion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "barrio",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ciudad",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "departmento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "estrato",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dependeEcono",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "trabaja",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "tieneDependientes",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Modulo3IyR",
+  "name": "InfoEconomica",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

@@ -1,0 +1,13 @@
+¿Cuál es el país más grande de latinoamérica?|Brasil|Chile|Colombia|Argentina|
+¿Cuál es el Río más caudaloso del mundo?|Amazonas|Nilo|Titicaca|Yangsté|
+¿Cuál es el desierto más extenso de Colombia?|Guajira|Tatacoa|Sahara|Tatacoita|
+¿Cuántos departamentos tiene Colombia?|32|30|28|34|
+¿Cuál es el monte más alto del mundo?|Everest|K2|Makalu|Kilimanjaro|
+¿Cuál es el país más poblado del mundo?|China|Indonesia|India|Estados Unidos|
+¿Cuál de estas ciudades no está en Europa?|Melbourne|Barcelona|Praga|Reikiavik|
+¿Cuántos países integran el Reino Unido?|4|8|6|5|
+¿Cuál de estos países no limita con Francia?|Holanda|España|Italia|Alemania|
+¿Cómo se llama la línea imaginaria que une los polos?|Meridiano|El eje de la tierra|Linea de Lambert|Trópico de Cáncer|
+¿Cómo se denomina el mayor cuerpo de agua en la Tierra?|Océano pacífico|Océano Atlántico|Océano índico|Mar Caribe|
+¿Cuál es el país más pequeño del mundo?|Vaticano|Mónaco|Maldivas|Tuvalu|
+¿Cuál es la longitud aproximada del ecuador terrestre?|40 000KM|20 000KM|30 000KM|50 000KM|

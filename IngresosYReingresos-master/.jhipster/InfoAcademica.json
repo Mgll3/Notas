@@ -1,0 +1,38 @@
+{
+  "applications": "*",
+  "changelogDate": "20230421173839",
+  "clientRootFolder": "Modulo3IyR",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "info_academica",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Modulo3IyR",
+  "name": "InfoAcademica",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "infoBachillerato",
+      "ownerSide": true,
+      "relationshipName": "academica",
+      "relationshipType": "one-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityName": "matriculaSemestre",
+      "otherEntityRelationshipName": "matriculaA",
+      "relationshipName": "matriculaSemestre",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "otroEstudioFormal",
+      "otherEntityRelationshipName": "otroFormal",
+      "relationshipName": "otroEstudioFormal",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

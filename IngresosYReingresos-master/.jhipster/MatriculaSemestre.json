@@ -1,0 +1,86 @@
+{
+  "applications": "*",
+  "changelogDate": "20230421173842",
+  "clientRootFolder": "Modulo3IyR",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "matricula_semestre",
+  "fields": [
+    {
+      "fieldName": "tipoIngreso",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tipoAspirante",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "version",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modalidad",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sede",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "year",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "cohorte",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "estado",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "promedioSemestre",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "promedioAcumulado",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "liquidacionMatricula",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "estadoPago",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "situacionAcademica",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Modulo3IyR",
+  "name": "MatriculaSemestre",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "programa",
+      "ownerSide": true,
+      "relationshipName": "matriculaS",
+      "relationshipType": "one-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityName": "infoAcademica",
+      "otherEntityRelationshipName": "matriculaSemestre",
+      "relationshipName": "matriculaA",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "service": "no"
+}
