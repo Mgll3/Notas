@@ -8,22 +8,25 @@ import MiComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplo4 from './hooks/Ejemplo4';
 import AllCycle from './hooks/lifecycle/AllCycle';
 import GreetingStyled from './components/pure/greetingStyled';
+import Father from './components/container/father';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <TaskListComponent></TaskListComponent>
+      <TaskListComponent></TaskListComponent>
+      {/* <header className="App-header"> */}
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        
         {/* <MiComponenteConContexto></MiComponenteConContexto> */}
         {/* <Ejemplo4 nombre="Juan">
           <h1>Esto no se veria si no fuera por que imprimi el props.children</h1>
         </Ejemplo4> */}
         {/* <AllCycle></AllCycle> */}
         {/* <GreetingStyled name="Juan"></GreetingStyled> */}
+        {/* <Father></Father> */}
 
-      </header>
+      {/* </header> */}
     </div>
   );
 }
